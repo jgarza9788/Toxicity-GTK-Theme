@@ -1,7 +1,7 @@
 {
   "manifest_version": "1",
-  "name": "Tokyonight-Dark",
-  "display_name": "Tokyonight-Dark",
+  "name": "Toxicity-Dark",
+  "display_name": "Toxicity-Dark",
   "extend_theme": "light",
   "css_file": "theme.css",
   "css_file_gtk_3.20+": "theme-gtk-3.20.css",

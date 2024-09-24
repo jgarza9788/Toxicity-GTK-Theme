@@ -1,7 +1,7 @@
 {
   "manifest_version": "1",
-  "name": "Tokyonight-Light",
-  "display_name": "Tokyonight-Light",
+  "name": "Toxicity-Light",
+  "display_name": "Toxicity-Light",
   "extend_theme": "light",
   "css_file": "theme.css",
   "css_file_gtk_3.20+": "theme-gtk-3.20.css",

@@ -16,31 +16,31 @@ make_gtkrc() {
 	if [[ "${color}" != '-Dark' ]]; then
 		case "$theme" in
 		'')
-			theme_color='#3c84f7'
+			theme_color='#4f9bf3'
 			;;
 		-Purple)
-			theme_color='#AB47BC'
+			theme_color='#9b70f2'
 			;;
 		-Pink)
-			theme_color='#EC407A'
+			theme_color='#ff6394'
 			;;
 		-Red)
-			theme_color='#E53935'
+			theme_color='#ff4b5c'
 			;;
 		-Orange)
-			theme_color='#F57C00'
+			theme_color='#ffa94b'
 			;;
 		-Yellow)
-			theme_color='#FBC02D'
+			theme_color='#f0e243'
 			;;
 		-Green)
-			theme_color='#4CAF50'
+			theme_color='#8ced5f'
 			;;
 		-Teal)
-			theme_color='#009688'
+			theme_color='#38d1b1'
 			;;
 		-Grey)
-			theme_color='#464646'
+			theme_color='#737aa2'
 			;;
 		esac
 
@@ -110,31 +110,31 @@ make_gtkrc() {
 	else
 		case "$theme" in
 		'')
-			theme_color='#5b9bf8'
+			theme_color='#4f9bf3'
 			;;
 		-Purple)
-			theme_color='#BA68C8'
+			theme_color='#9b70f2'
 			;;
 		-Pink)
-			theme_color='#F06292'
+			theme_color='#ff6394'
 			;;
 		-Red)
-			theme_color='#F44336'
+			theme_color='#ff4b5c'
 			;;
 		-Orange)
-			theme_color='#FB8C00'
+			theme_color='#ffa94b'
 			;;
 		-Yellow)
-			theme_color='#FFD600'
+			theme_color='#f0e243'
 			;;
 		-Green)
-			theme_color='#66BB6A'
+			theme_color='#8ced5f'
 			;;
 		-Teal)
-			theme_color='#4DB6AC'
+			theme_color='#38d1b1'
 			;;
 		-Grey)
-			theme_color='#DDDDDD'
+			theme_color='#737aa2'
 			;;
 		esac
 

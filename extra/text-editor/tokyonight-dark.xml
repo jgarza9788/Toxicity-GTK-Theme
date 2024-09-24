@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="tokyonight-dark" _name="Tokyonight Dark" version="1.0">
+<style-scheme id="Toxicity-dark" _name="Toxicity Dark" version="1.0">
   <author>fkorpsvart</author>
-  <_description>Tokyonight Dark theme for Gnome Text Editor</_description>
+  <_description>Toxicity Dark theme for Gnome Text Editor</_description>
 
   <!-- Colors -->
   <color name="pink"                       value="#fca7ea" />

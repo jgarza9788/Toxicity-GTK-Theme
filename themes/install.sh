@@ -21,7 +21,7 @@ fi
 
 SASSC_OPT="-M -t expanded"
 
-THEME_NAME=Tokyonight
+THEME_NAME=Toxicity
 THEME_VARIANTS=('' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Teal' '-Grey')
 COLOR_VARIANTS=('-Light' '-Dark')
 SIZE_VARIANTS=('' '-Compact')

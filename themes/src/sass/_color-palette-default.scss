@@ -1,44 +1,44 @@
-// Tokyonight Default Theme Color Palette
+// Toxicity Default Theme Color Palette
 
 // Red
-$red-light: #f52a65;
-$red-dark: #f7768e;
+$red-light: #ff4b5c;
+$red-dark: #ff7c87;
 
 // Pink
-$pink-light: #d20065;
-$pink-dark: #ff007c;
+$pink-light: #ff6394;
+$pink-dark: #ff8baa;
 
 // Purple
-$purple-light: #7847bd;
-$purple-dark: #bb9af7;
+$purple-light: #9b70f2;
+$purple-dark: #b28bf6;
 
 // Blue
-$blue-light: #2e7de9;
-$blue-dark: #7aa2f7;
+$blue-light: #4f9bf3;
+$blue-dark: #79b4f7;
 
 // Teal
-$teal-light: #118c74;
-$teal-dark: #1abc9c;
+$teal-light: #38d1b1;
+$teal-dark: #64ddc1;
 
 // Cyan
-$cyan-light: #007197;
-$cyan-dark: #7dcfff;
+$cyan-light: #54f7e1;
+$cyan-dark: #7efae8;
 
 // Green
-$green-light: #387068;
-$green-dark: #73daca;
+$green-light: #8ced5f;
+$green-dark: #a4f48a;
 
 // Yellow
-$yellow-light: #8c6c3e;
-$yellow-dark: #e0af68;
+$yellow-light: #f0e243;
+$yellow-dark: #f4eb73;
 
 // Orange
-$orange-light: #b15c00;
-$orange-dark: #ff9e64;
+$orange-light: #ffa94b;
+$orange-dark: #ffbf79;
 
 // Accent Color
-$accent-light: #006a83;
-$accent-dark: #27a1b9;
+$accent-light: #4f9bf3;
+$accent-dark: #79b4f7;
 
 // Grey
 $grey-050: #e9e9ed;
@@ -72,6 +72,6 @@ $default-light: $accent-light;
 $default-dark: $accent-dark;
 
 // Button
-$button-close: if($topbar == 'light', #c64343, #f7768e);
-$button-max: if($topbar == 'light', #587539, #9ece6a);
-$button-min: if($topbar == 'light', #8c6c3e, #ff9e64);
+$button-close: if($topbar == 'light', #ff4b5c, #ff4b5c);
+$button-max: if($topbar == 'light', #8ced5f , #8ced5f);
+$button-min: if($topbar == 'light', #f0e243 , #f0e243);
