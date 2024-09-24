@@ -4,40 +4,40 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Blue' '-
     for type in '' '-Storm' '-Moon'; do
         case "$theme" in
             '')
-                theme_color_dark='#27a1b9'
-                theme_color_light='#006a83'
+                theme_color_dark='#8ced5f'
+                theme_color_light='#8ced5f'
                 ;;
             -Purple)
-                theme_color_dark='#9d7cd8'
-                theme_color_light='#7847bd'
+                theme_color_dark='#9b70f2'
+                theme_color_light='#9b70f2'
                 ;;
             -Pink)
-                theme_color_dark='#ff007c'
-                theme_color_light='#d20065'
+                theme_color_dark='#ff6394'
+                theme_color_light='#ff6394'
                 ;;
             -Red)
-                theme_color_dark='#f7768e'
-                theme_color_light='#f52a65'
+                theme_color_dark='#ff4b5c'
+                theme_color_light='#ff4b5c'
                 ;;
             -Orange)
-                theme_color_dark='#ff9e64'
-                theme_color_light='#b15c00'
+                theme_color_dark='#ffa94b'
+                theme_color_light='#ffa94b'
                 ;;
             -Yellow)
-                theme_color_dark='#e0af68'
-                theme_color_light='#8c6c3e'
+                theme_color_dark='#f0e243'
+                theme_color_light='#f0e243'
                 ;;
             -Green)
-                theme_color_dark='#9ece6a'
-                theme_color_light='#587539'
+                theme_color_dark='#8ced5f'
+                theme_color_light='#8ced5f'
                 ;;
             -Blue)
-                theme_color_dark='#7aa2f7'
-                theme_color_light='#2e7de9'
+                theme_color_dark='#4f9bf3'
+                theme_color_light='#4f9bf3'
                 ;;
             -Grey)
-                theme_color_dark='#1a1b26'
-                theme_color_light='#c0caf5'
+                theme_color_dark='#737aa2'
+                theme_color_light='#737aa2'
                 ;;
         esac
 

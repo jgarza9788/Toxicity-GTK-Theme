@@ -6,31 +6,31 @@ for theme in '' '-Purple' '-Pink' '-Red' '-Orange' '-Yellow' '-Green' '-Blue' '-
             if [[ "$color" == '' ]]; then
                 case "$theme" in
                     '')
-                        theme_color='#27a1b9'
+                        theme_color='#8ced5f'
                         ;;
                     -Purple)
-                        theme_color='#9d7cd8'
+                        theme_color='#9b70f2'
                         ;;
                     -Pink)
-                        theme_color='#ff007c'
+                        theme_color='#ff6394'
                         ;;
                     -Red)
-                        theme_color='#f7768e'
+                        theme_color='#ff4b5c'
                         ;;
                     -Orange)
-                        theme_color='#ff9e64'
+                        theme_color='#ffa94b'
                         ;;
                     -Yellow)
-                        theme_color='#e0af68'
+                        theme_color='#f0e243'
                         ;;
                     -Green)
-                        theme_color='#9ece6a'
+                        theme_color='#8ced5f'
                         ;;
                     -Blue)
-                        theme_color='#7aa2f7'
+                        theme_color='#4f9bf3'
                         ;;
                     -Grey)
-                        theme_color='#1a1b26'
+                        theme_color='#737aa2'
                         ;;
                 esac
 
