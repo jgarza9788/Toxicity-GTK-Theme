@@ -2613,7 +2613,7 @@ popover {
 		} @else {
 			box-shadow:
 				$shadow-z16,
-				0 0 0 2px $primary,
+				0 0 0 4px $primary,
 				0 0 36px transparent;
 		}
 	}
@@ -2628,7 +2628,7 @@ popover {
 		} @else {
 			box-shadow:
 				$shadow-z16,
-				0 0 0 2px $primary,
+				0 0 0 4px $primary,
 				0 0 36px transparent;
 		}
 	}
@@ -5794,7 +5794,7 @@ window {
 		} @else {
 			box-shadow:
 				$shadow-z16,
-				0 0 0 2px $primary,
+				0 0 0 4px $primary,
 				0 0 36px transparent;
 		}
 
@@ -5813,7 +5813,7 @@ window {
 			} @else {
 				box-shadow:
 					$shadow-z4,
-					0 0 0 2px if($variant == 'light', $grey-450, $grey-750),
+					0 0 0 4px if($variant == 'light', $grey-450, $grey-750),
 					0 0 36px transparent;
 			}
 		}

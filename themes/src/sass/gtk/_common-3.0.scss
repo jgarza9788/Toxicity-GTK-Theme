@@ -2313,7 +2313,7 @@ popover.background {
 		} @else {
 			box-shadow:
 				$shadow-z16,
-				0 0 0 2px $primary,
+				0 0 0 4px $primary,
 				0 0 36px transparent;
 		}
 
@@ -4687,7 +4687,7 @@ decoration {
 	} @else {
 		box-shadow:
 			$shadow-z16,
-			0 0 0 2px $primary,
+			0 0 0 4px $primary,
 			0 0 36px transparent;
 	}
 
@@ -4709,7 +4709,7 @@ decoration {
 		} @else {
 			box-shadow:
 				$shadow-z4,
-				0 0 0 2px if($variant == 'light', $grey-450, $grey-750),
+				0 0 0 4px if($variant == 'light', $grey-450, $grey-750),
 				0 0 36px transparent;
 		}
 	}
@@ -4740,7 +4740,7 @@ decoration {
 			border-radius: $window-radius $window-radius 0 0;
 			box-shadow:
 				0 3px 3px rgba(0, 0, 0, 0.16),
-				0 0 0 2px $primary;
+				0 0 0 4px $primary;
 		} @else {
 			border: none;
 			border-radius: $window-radius $window-radius 0 0;
@@ -4754,7 +4754,7 @@ decoration {
 
 				box-shadow:
 					0 3px 3px rgba(0, 0, 0, 0.16),
-					0 0 0 2px if($variant == 'light', $grey-450, $grey-750);
+					0 0 0 4px if($variant == 'light', $grey-450, $grey-750);
 			} @else {
 				border: none;
 				border-radius: $window-radius $window-radius 0 0;
@@ -4778,7 +4778,7 @@ decoration {
 		} @else {
 			box-shadow:
 				$shadow-z4,
-				0 0 0 2px $primary;
+				0 0 0 4px $primary;
 		}
 	}
 

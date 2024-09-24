@@ -11,7 +11,7 @@
 	color: $text;
 
 	@if $outline == 'true' {
-		border: 2px solid $indicator;
+		border: 4px solid $indicator;
 	}
 
 	& > #Toolbar {

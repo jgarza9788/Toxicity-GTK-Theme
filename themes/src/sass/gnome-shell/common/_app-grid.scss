@@ -58,7 +58,7 @@
 	background-color: $osd;
 
 	@if $outline == 'true' {
-		border: 2px solid $inverse-indicator;
+		border: 4px solid $inverse-indicator;
 	}
 
 	& .folder-name-container {

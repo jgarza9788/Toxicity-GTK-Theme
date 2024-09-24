@@ -377,7 +377,7 @@ $sub_menu_bg: mix($text, $popover, 10%);
 		box-shadow: 0 5px 12px rgba(black, 0.35);
 
 		@if $outline == 'true' {
-			border: 2px solid $primary;
+			border: 4px solid $primary;
 			background-clip: border-box;
 		}
 	}
@@ -432,7 +432,7 @@ $sub_menu_bg: mix($text, $popover, 10%);
 	padding: $space-size;
 
 	@if $outline == 'true' {
-		border: 2px solid $primary;
+		border: 4px solid $primary;
 	}
 }
 
@@ -1916,7 +1916,7 @@ $sub_menu_bg: mix($text, $popover, 10%);
 		box-shadow: 0 5px 12px rgba(black, 0.35);
 
 		@if $outline == 'true' {
-			border: 2px solid $primary;
+			border: 4px solid $primary;
 		}
 
 		.item-box {
