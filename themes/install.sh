@@ -353,7 +353,7 @@ while [[ $# -gt 0 ]]; do
 				echo -e "Macos window button version! ..."
 				shift
 				;;
-			stars)
+			star)
 				macos="false"
 				star="true"
 				window="-Star"
