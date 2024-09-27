@@ -353,6 +353,13 @@ while [[ $# -gt 0 ]]; do
 				echo -e "Macos window button version! ..."
 				shift
 				;;
+			stars)
+				macos="false"
+				star="true"
+				window="-Star"
+				echo -e "Star window button version! ..."
+				shift
+				;;
 			-*)
 				break
 				;;
@@ -449,6 +456,10 @@ macos_winbutton() {
 	sed -i "/\$window_button:/s/normal/mac/" ${SRC_DIR}/sass/_tweaks-temp.scss
 }
 
+star_winbutton() {
+	sed -i "/\$window_button:/s/normal/star/" ${SRC_DIR}/sass/_tweaks-temp.scss
+}
+
 gnome_shell_version() {
 	cp -rf "${SRC_DIR}/sass/gnome-shell/_common.scss" "${SRC_DIR}/sass/gnome-shell/_common-temp.scss"
 
@@ -523,6 +534,10 @@ theme_tweaks() {
 
 	if [[ "$macos" = "true" ]]; then
 		macos_winbutton
+	fi
+
+	if [[ "$star" = "true" ]]; then
+		star_winbutton
 	fi
 }
 

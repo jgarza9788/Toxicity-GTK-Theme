@@ -5,29 +5,41 @@
   <description>Toxicity Storm theme for Gnome Text Editor</description>
 
   <!-- Colors -->
-  <color name="pink"                       value="#fca7ea" />
-  <color name="purple"                     value="#9d7cd8" />
-  <color name="red"                        value="#f7768e" />
-  <color name="maroon"                     value="#914c54" />
-  <color name="orange"                     value="#ff9e64" />
-  <color name="yellow"                     value="#e0af68" />
-  <color name="green"                      value="#9ece6a" />
-  <color name="teal"                       value="#1abc9c" />
-  <color name="cyan"                       value="#7dcfff" />
-  <color name="saphire"                    value="#2ac3de" />
-  <color name="blue"                       value="#7aa2f7" />
-  <color name="base0"                      value="#24283b" />
-  <color name="base1"                      value="#292e42" />
-  <color name="base2"                      value="#3b4261" />
-  <color name="text"                       value="#c0caf5" />
-  <color name="subtext1"                   value="#a9b1d6" />
-  <color name="subtext0"                   value="#6183bb" />
-  <color name="overlay2"                   value="#3b4261" />
-  <color name="overlay1"                   value="#414868" />
-  <color name="overlay0"                   value="#545c7e" />
-  <color name="surface2"                   value="#565f89" />
-  <color name="surface1"                   value="#737aa2" />
-  <color name="surface0"                   value="#828bb8" />
+  <color name="pink"                       value="#ff6394" />
+  <color name="purple"                     value="#9b70f2" />
+  <color name="red"                        value="#ff4b5c" />
+  <color name="maroon"                     value="#ff4b5c" />
+  <color name="orange"                     value="#ffa94b" />
+  <color name="yellow"                     value="#f0e243" />
+  <color name="green"                      value="#8ced5f" />
+  <color name="teal"                       value="#38d1b1" />
+  <color name="cyan"                       value="#54f7e1" />
+  <color name="saphire"                    value="#4f9bf3" />
+  <color name="blue"                       value="#4f9bf3" />
+  <color name="base0"                      value="#202020" />
+  <color name="base1"                      value="#2e2e2e" />
+  <color name="base2"                      value="#353535" />
+  <!-- <color name="base0"                      value="#1a1b26" /> -->
+  <!-- <color name="base1"                      value="#24283b" /> -->
+  <!-- <color name="base2"                      value="#292e42" /> -->
+  <!-- <color name="text"                       value="#c0caf5" /> -->
+  <!-- <color name="subtext1"                   value="#a9b1d6" /> -->
+  <!-- <color name="subtext0"                   value="#6183bb" /> -->
+  <!-- <color name="overlay2"                   value="#3b4261" /> -->
+  <!-- <color name="overlay1"                   value="#414868" /> -->
+  <!-- <color name="overlay0"                   value="#545c7e" /> -->
+  <!-- <color name="surface2"                   value="#565f89" /> -->
+  <!-- <color name="surface1"                   value="#737aa2" /> -->
+  <!-- <color name="surface0"                   value="#828bb8" /> -->
+  <color name="text"                       value="#d4d4d4" />
+  <color name="subtext1"                   value="#bfbfbf" />
+  <color name="subtext0"                   value="#8a8a8a" />
+  <color name="overlay2"                   value="#484848" />
+  <color name="overlay1"                   value="#4e4e4e" />
+  <color name="overlay0"                   value="#616161" />
+  <color name="surface2"                   value="#636363" />
+  <color name="surface1"                   value="#878787" />
+  <color name="surface0"                   value="#959595" />
 
   <!-- Global Settings -->
   <style name="text"                       background="base0" foreground="text"/>
