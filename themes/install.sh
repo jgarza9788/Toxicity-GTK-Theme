@@ -354,7 +354,6 @@ while [[ $# -gt 0 ]]; do
 				shift
 				;;
 			star)
-				macos="false"
 				star="true"
 				window="-Star"
 				echo -e "Star window button version! ..."
